@@ -1,10 +1,11 @@
-import { useState } from 'react'
-
+import { useState,useEffect } from 'react'
+import Navbar from './components/Navbar'
+import { Outlet } from "react-router-dom";
 function App() {
-
   return (
     <>
-    <h1>here it goes </h1>
+    <Navbar />
+    <Outlet />
     </>
   )
 }

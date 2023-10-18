@@ -1,4 +1,4 @@
-export default function journey (){
+export default function Journey (){
     return(
         <>
         <h1>
