@@ -1,6 +1,79 @@
-navbar{
+.displayPage{
+  display: flex;
+  /* align-items: center;
+  flex-direction: column; */
+  height:100vh;
+  width: 100vw;
+}
+.mainContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  border-left: 0px;
+  border-right: 0px;
+}
+.homePage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height:100vh;
+  width:60vw;
+  background-color: rgb(152, 81, 37);
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:fit-content;
+  width:60vw;
+  border:2px solid black;
+  margin-top: 30px;
+}
+.profile > img {
+  width:30%;
+  border-radius: 100%;
+  box-shadow: rgb(0, 136, 255) 0px 0px 20px 10px;
+}
+nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 10vh;
-  width:100vw;
+  width:60vw;
+  border: 2px solid black;
+  font-family: 'Saiyan Sans', sans-serif;
+  font-family: 'Saiyan Sans - Left Oblique', sans-serif;
+  font-family: 'Saiyan Sans - Right Oblique', sans-serif;
+  font-size: 50px;
+  color:black;
+  background:linear-gradient(yellow,rgb(255, 179, 0),rgb(255, 140, 0),red);
+  /* background: black; */
+  border-radius: 10px;
+}
+.sideBar{
+  height:100vh;
+  width:20vw;
+  border: 2px solid black;
+}
+.sideBar > img{
+  width:20vw;
+  height: 100vh;
+  border: 0px;
+}
+span:hover{
+  color:yellow;
+  text-shadow: 0px 0px 20px;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
+}
+
+.aboutMe{
+  display:flex;
+  height:40vh;
+  width:60vw;
+  border: solid 2px black;
 }
