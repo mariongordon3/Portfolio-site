@@ -4,7 +4,6 @@
   flex-direction: column; */
   height:100vh;
   width: 100vw;
-  background-color: aquamarine;
 }
 .mainContent{
   display: flex;
@@ -29,12 +28,13 @@
   align-items: center;
   height:fit-content;
   width:60vw;
-  border:2px solid black;
-  margin-top: 30px;
+  padding: 30px;
   background-color: white;
+  border-bottom: 4mm ridge black;
 }
 .profile > img {
   width:30%;
+  height: fit-content;
   border-radius: 100%;
   box-shadow: rgb(0, 136, 255) 0px 0px 20px 10px;
 }
@@ -44,7 +44,6 @@ nav {
   align-items: center;
   height: 10vh;
   width:60vw;
-  border: 2px solid black;
   font-family: 'Saiyan Sans', sans-serif;
   font-family: 'Saiyan Sans - Left Oblique', sans-serif;
   font-family: 'Saiyan Sans - Right Oblique', sans-serif;
@@ -57,14 +56,20 @@ nav {
 .sideBar{
   height:100vh;
   width:20vw;
-  border:0px;
+  overflow: hidden;
+  margin:0px;
+  
 }
 .sideBar > img{
-  width:20vw;
-  height: 100vh;
+  height: 100%;
   border: 0px;
+  position: relative;
+  right:500px;
 }
-span:hover{
+.lnk{
+  color: black;
+}
+.lnk:hover{
   color:yellow;
   text-shadow: 0px 0px 20px;
   /* -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -74,8 +79,24 @@ span:hover{
 
 .aboutMe{
   display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height:40vh;
   width:60vw;
-  border: solid 2px black;
   background-color: white;
+}
+
+.aboutMe > p {
+  padding:20px;
+}
+
+.goku{
+  height:fit-content;
+  width: fit-content;
+}
+.goku > img{
+  height:150px;
+  width: 150px;
 }
