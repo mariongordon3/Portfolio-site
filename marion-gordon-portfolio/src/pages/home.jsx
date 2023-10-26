@@ -1,12 +1,51 @@
+import { Link } from "react-router-dom"
 export default function HomePage(){
     return (
         <div className="homePage">
-            <div className="profile">
-                <img src="linkedinPic.jpg" alt="linkedin picture" />
-                <div>
+            <div className="topPortion">
+                <div className="info">
+                    <h2>Contact Içnfo</h2>
+                    <div className="info-items">
+                        <ul>
+                            <li>
+                                email: mariongordon3@yahoo.com
+                            </li>
+                            <li>
+                                <Link to='https://www.linkedin.com/in/mariong3/'>linkedin</Link>    
+                            </li>
+                            <li>
+                                <Link to='https://github.com/mariongordon3'>Github</Link>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div className="profile">
+                    <img src="linkedinPic.jpg" alt="linkedin picture" />
                     <div className="goku">
                         <img src="goku__spirit_bomb__render__sdbh_world_mission__by_maxiuchiha22_dd5by3a-fullview.png" alt="goku_holding_spirit_bomb" />
                     </div>
+                </div>
+                <div className="info">
+                    <h2>Languages</h2>
+                    <div className="info-items">
+                        <ul>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Javascript
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                CSS
+                            </li>   
+                        </ul>
+                        
+                    </div>
+                    
                 </div>
             </div>
             <div className="aboutMe" >
