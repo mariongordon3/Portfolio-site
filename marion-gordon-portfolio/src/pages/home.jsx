@@ -4,7 +4,7 @@ export default function HomePage(){
         <div className="homePage">
             <div className="topPortion">
                 <div className="info">
-                    <h2>Contact Içnfo</h2>
+                    <h2>Contact Info</h2>
                     <div className="info-items">
                         <ul>
                             <li>
