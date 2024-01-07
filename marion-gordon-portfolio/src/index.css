@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  min-height: 10vh;
   width:60vw;
   font-family: 'Saiyan Sans', sans-serif;
   font-family: 'Saiyan Sans - Left Oblique', sans-serif;
@@ -17,7 +17,6 @@ nav {
   font-size: 50px;
   color:black;
   background:linear-gradient(yellow,rgb(255, 179, 0),rgb(255, 140, 0),red);
-  /* background: black; */
   border-radius: 10px;
 }
 .mainContent{
@@ -42,18 +41,18 @@ nav {
   justify-content: center;
   height: fit-content;
   width:60vw;
+  border-bottom: 4mm ridge black;
 }
 .profile{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:100%;
+  height:80%;
   width:60%;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;
-  border-bottom: 4mm ridge black;
 }
 .profile > img {
   width:150%;
@@ -132,3 +131,11 @@ nav {
   height:150px;
   width: 150px;
 }
+.journey{
+  height:100vh;
+  width: 100vw;
+}
+/* .TimelineMainWrapper-sc-cif21b-1{
+  width:100%;
+  height: 100%;
+} */
